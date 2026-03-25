@@ -10,7 +10,7 @@ import HelpdeskPage from './pages/HelpdeskPage';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/varsity-jacket/">
       <Routes>
         <Route path="/"               element={<HomePage />} />
         <Route path="/collection"     element={<GalleryPage />} />
