@@ -8,3 +8,7 @@ Name: VITE_SUPABASE_URL → Value: https://something.supabase.co
 Name: VITE_SUPABASE_KEY → Value: your anon key
 
 That's it. The ${{ secrets.VITE_SUPABASE_URL }} in the workflow automatically pulls from there during build.
+
+Also Make sure 
+
+ GitHub Repo Settings → Pages -> Build and deployment Source is set to Github Actions (Not Deploy from a branch)
